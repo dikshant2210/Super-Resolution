@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## Super Resolution
 
-You can use the [editor on GitHub](https://github.com/dikshant2210/Super-Resolution/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Super Resolution is an image enhancement technique to convert low resolution images to high resolution images while maintaining the quality and details of the image.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This repository is an attempt to implement the deep neural architecture proposed in the recent research paper [GUN: Gradual Upsampling Network for single image super-resolution](http://arxiv.org/abs/1703.04244).
+
+Paper discusses about recent advancements made in super resolution and how the approach discussed is different and produces better result compared to previous used architectures. The model proposed differentiates itself from other methods by gradually upsampling the images. Generally, researchers upsample image to desired resolution and then construct the details though in this paper author has highlighted the importance of gradual reconstruction and upsampling.    
 
 ### Markdown
 
@@ -25,13 +27,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dikshant2210/Super-Resolution/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
