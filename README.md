@@ -6,7 +6,8 @@ This repository is an attempt to implement the deep neural architecture proposed
 
 Paper discusses about recent advancements made in super resolution and how the approach discussed is different and produces better result compared to previous used architectures. The model proposed differentiates itself from other methods by gradually upsampling the images. Generally, researchers upsample image to desired resolution and then construct the details though in this paper author has highlighted the importance of gradual reconstruction and upsampling.    
 
-### Markdown
+### Architecture
+![Architecture Image, also fig.1 in the original paper](https://github.com/dikshant2210/Super-Resolution/blob/master/architecture/gun.png)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
