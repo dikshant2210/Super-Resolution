@@ -107,3 +107,8 @@ ENV/
 *.iml
 out
 gen
+
+# author added
+input/train_low
+input/train_masks
+input/train_masks.csv
